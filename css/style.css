@@ -481,7 +481,7 @@ ul {
 .portfolio .content-image .portfolio-caption {
     position: absolute;
     left: 20px;
-    bottom: 70px;
+    bottom: 90px;
     right: 20px;
 }
 .portfolio .content-image .portfolio-caption .title {
@@ -610,7 +610,7 @@ ul {
     transition: all .2s ease;
 }
 .blog .content .blog-title h4 a:hover {
-    color: #ff8c05;
+    color: #0a87e1;
 }
 .blog .content .blog-title .date {
     font-weight: 500;
@@ -749,7 +749,7 @@ ul {
     .portfolio .content-image .portfolio-caption {
         position: absolute;
         left: 10px;
-        bottom: 10px;
+        bottom: 90px;
         right: 10px;
         text-align: center;
     }
