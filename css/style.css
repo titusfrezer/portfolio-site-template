@@ -16,8 +16,8 @@ comment
 /*general*/
 body {
     font-family: 'poppins', sans-serif;
-    background: #212121;
-    color: #fafafa;
+    background: white;
+    color: white;
     font-size: 14px;
     line-height: 22px;
 }
@@ -32,7 +32,7 @@ h6 {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #fff;
+    color: #212121;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h6 {
 }
 
 a {
-    color: #fff;
+    color: #212121;
 }
 a:hover {
     color: #fff;
@@ -86,7 +86,7 @@ ul {
 }
 .section-title h3 {
     font-weight: 700;
-    color: #9ed7ff;
+    color: #0a87e1;
 }
 .section-title.section-title-left {
     text-align: left;
@@ -96,7 +96,7 @@ ul {
     text-align: left;
 }
 .title-resume h3 {
-    color: #9ed7ff;
+    color: #212121;
     font-size: 22px;
     font-weight: 300;
     display: inline-block;
@@ -109,22 +109,25 @@ ul {
     font-weight: 900;
 }
 .title-resume h2 span {
-    color: #9ed7ff;
+    color: #0a87e1;
 }
 
 .box-content {
-    background: #262626;
+    background: white;
     padding: 40px;
     border-radius: 3px;
 }
 
+
+
+
 /*button default*/
 .button {
-    background: #9ed7ff;
+    background: -webkit-linear-gradient(right, #0a87e1, #9ed7ff);
     background: -moz-linear-gradient(-45deg, #0a87e1, 0%, #1c5884 100%);
     background: -webkit-linear-gradient(-45deg, #0a87e1, 0%, #194d71, 100%);
     background: linear-gradient(135deg, #0a87e1, 0%, #125586, 100%);
-    color: black;
+    color: white;
     border: 0;
     margin-top: 50px;
     border-radius: 2px;
@@ -162,7 +165,7 @@ ul {
 /*navbar*/
 .navbar {
     margin: 27px 0;
-    background: #262626;
+    background: white;
     color: #fff;
     padding: 8px 40px;
     transition: all .5s ease;
@@ -172,9 +175,10 @@ ul {
     background: -webkit-linear-gradient(right, #0a87e1, #9ed7ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 .navbar .navbar-nav .nav-item .nav-link {
-    color: #fff;
+    color: black;
     font-weight: 500;
     letter-spacing: 1px;
     padding-left: 12px;
@@ -187,7 +191,7 @@ ul {
     left: 0;
     right: 0;
     z-index: 999;
-    background: #262626;
+    background: white;
     margin-top: 0;
     box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.2);
     transition: all .5s ease;
@@ -209,6 +213,7 @@ ul {
     margin-bottom: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color: black;
 }
 .home-intro .intro-content .intro-caption h2 {
     font-size: 70px;
@@ -217,6 +222,8 @@ ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 87px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .home-intro .intro-content .intro-image {
     filter: drop-shadow(-3px 17px 8px rgba(0, 0, 0, 0.3));
@@ -233,6 +240,7 @@ ul {
 }
 .about .box-content p {
     margin: 0;
+    color: black;
 }
 .about .content-left {
     padding: 40px;
@@ -352,7 +360,7 @@ ul {
     background: #515151;
 }
 .resume .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff8c05;
+    background: #0a87e1;
 }
 .resume .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 50px;
@@ -379,6 +387,7 @@ ul {
 .portfolio .portfolio-filter-menu ul li span {
     z-index: 99;
     position: relative;
+    color: #212121;
 }
 .portfolio .portfolio-filter-menu ul li span::after {
     content: "";
@@ -392,7 +401,7 @@ ul {
     z-index: -1000;
 }
 .portfolio .portfolio-filter-menu ul li span:hover {
-    color: #ff8c05;
+    color: #0a87e1;
 }
 .portfolio .portfolio-filter-menu ul li span:hover::after {
     height: 10px;
@@ -579,7 +588,7 @@ ul {
 
 /*blog*/
 .blog .content {
-    background: #262626;
+    background: white;
     border-radius: 3px;
 }
 .blog .content:hover img {
@@ -614,6 +623,9 @@ ul {
 }
 .blog .content .blog-title .date {
     font-weight: 500;
+    color: #212121;
+    flex: 1;
+    justify-content: space-between;
 }
 .blog .content .blog-title .date i {
     margin: 0 10px;
@@ -678,15 +690,17 @@ ul {
     color: #fff;
 }
 .contact .content-right .row .form-control:hover {
-    border-color: #ff8c05;
+    border-color: #0a87e1;
 }
 .contact .content-right .row .form-control:focus {
     outline: 0;
     box-shadow: none;
-    border-color: #ff8c05;
+    border-color: #0a87e1;
 }
 .contact .content-right .button {
     margin-top: 30px;
+    background: -webkit-linear-gradient(right, #0a87e1, #9ed7ff);
+    color: white;
 }
 
 /*footer*/
